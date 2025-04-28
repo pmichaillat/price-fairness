@@ -12,17 +12,17 @@ Figure 1 is produced by the MATLAB script `figure1.m`.
 
 This script calls two Dynare scripts:
 
-+ `irfFairnessMonetary.mod` – Compute the impulse response functions of the New Keynesian model with fairness under monetary shocks
-+ `irfTextbookMonetary.mod` – Compute the impulse response functions of the textbook New Keynesian model under monetary shocks
++ `irfFairnessMonetary.mod` - Compute the impulse response functions of the New Keynesian model with fairness under monetary shocks
++ `irfTextbookMonetary.mod` - Compute the impulse response functions of the textbook New Keynesian model under monetary shocks
 
 The script then produces the six panels of figure 1:
 
-+ `figure_1_exogenous_component_of_monetary_policy.pdf` – Response of the exogenous component of the monetary-policy rule
-+ `figure_1_inflation_rate.pdf` – Response of the inflation rate
-+ `figure_1_perceived_price_markup.pdf` – Response of the perceived price markup
-+ `figure_1_actual_price_markup.pdf` – Response of the actual price markup
-+ `figure_1_employment.pdf` – Response of employment
-+ `figure_1_output.pdf` – Response of output
++ `figure_1_exogenous_component_of_monetary_policy.pdf` - Response of the exogenous component of the monetary-policy rule
++ `figure_1_inflation_rate.pdf` - Response of the inflation rate
++ `figure_1_perceived_price_markup.pdf` - Response of the perceived price markup
++ `figure_1_actual_price_markup.pdf` - Response of the actual price markup
++ `figure_1_employment.pdf` - Response of employment
++ `figure_1_output.pdf` - Response of output
 
 ## Table 4
 
@@ -34,24 +34,24 @@ Figure 2 is produced by the MATLAB script `figure2.m`.
 
 This script calls two Dynare scripts:
 
-+ `irfFairnessTechnology.mod` – Compute the impulse response functions of the New Keynesian model with fairness under technology shocks
-+ `irfTextbookTechnology.mod` – Compute the impulse response functions of the textbook New Keynesian model under technology shocks
++ `irfFairnessTechnology.mod` - Compute the impulse response functions of the New Keynesian model with fairness under technology shocks
++ `irfTextbookTechnology.mod` - Compute the impulse response functions of the textbook New Keynesian model under technology shocks
 
 The script then produces the six panels of figure 2:
 
-+ `figure_2_technology_level.pdf` – Response of the technology level
-+ `figure_2_inflation_rate.pdf` – Response of the inflation rate
-+ `figure_2_perceived_price_markup.pdf` – Response of the perceived price markup
-+ `figure_2_actual_price_markup.pdf` – Response of the actual price markup
-+ `figure_2_employment.pdf` – Response of employment
-+ `figure_2_output.pdf` – Response of output
++ `figure_2_technology_level.pdf` - Response of the technology level
++ `figure_2_inflation_rate.pdf` - Response of the inflation rate
++ `figure_2_perceived_price_markup.pdf` - Response of the perceived price markup
++ `figure_2_actual_price_markup.pdf` - Response of the actual price markup
++ `figure_2_employment.pdf` - Response of employment
++ `figure_2_output.pdf` - Response of output
 
 ## Figure 3
 
 Figure 3 is produced by the MATLAB script `figure3.m`. The script produces the two panels of figure 3:
 
-+ `figure_3_price_markup.pdf` – Long-run Phillips curve in terms of price markup
-+ `figure_3_employment.pdf` – Long-run Phillips curve in terms of employment
++ `figure_3_price_markup.pdf` - Long-run Phillips curve in terms of price markup
++ `figure_3_employment.pdf` - Long-run Phillips curve in terms of employment
 
 ## Figure B.1
 
@@ -59,7 +59,7 @@ Figure B.1 (in online appendix B) is produced by the MATLAB script `figureB1.m`.
 
 This script calls one Dynare script:
 
-+ `passthrough.mod` – Compute the response of a firm's price to a cost shock
++ `passthrough.mod` - Compute the response of a firm's price to a cost shock
 
 The script then produces the figure and saves it as `figure_B1.pdf`.
 
@@ -73,4 +73,4 @@ The results were obtained on a Mac running macOS Catalina 10.15.6 with the follo
 
 ## License
 
-The content of this repository is licensed under the terms of the MIT License.
+This repository is licensed under the [MIT License](LICENSE.md).
